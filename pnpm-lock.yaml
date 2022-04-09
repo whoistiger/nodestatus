@@ -186,7 +186,7 @@ importers:
       '@ant-design/icons': ^4.7.0
       '@nodestatus/web-utils': workspace:*
       '@tailwindcss/postcss7-compat': ^2.2.17
-      '@types/react': ^17.0.33
+      '@types/react': ^18.0.0
       '@types/react-beautiful-dnd': ^13.1.2
       '@types/react-dom': ^17.0.10
       '@types/react-router-dom': ^5.3.2
@@ -214,7 +214,7 @@ importers:
       '@ant-design/icons': 4.7.0_react-dom@17.0.2+react@17.0.2
       '@nodestatus/web-utils': link:../utils
       '@tailwindcss/postcss7-compat': 2.2.17
-      '@types/react': 17.0.33
+      '@types/react': 18.0.0
       '@types/react-beautiful-dnd': 13.1.2
       '@types/react-dom': 17.0.10
       '@types/react-router-dom': 5.3.2
@@ -1107,7 +1107,7 @@ packages:
   /@pm2/pm2-version-check/1.0.4:
     resolution: {integrity: sha512-SXsM27SGH3yTWKc2fKR4SYNxsmnvuBQ9dd6QHtEWmiZ/VqaOYPAIlS8+vMcn27YLtAEBGvNRSh3TPNvtjZgfqA==}
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1413,7 +1413,7 @@ packages:
   /@types/hoist-non-react-statics/3.3.1:
     resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
     dependencies:
-      '@types/react': 17.0.33
+      '@types/react': 18.0.0
       hoist-non-react-statics: 3.3.2
     dev: true
 
@@ -1549,20 +1549,20 @@ packages:
   /@types/react-beautiful-dnd/13.1.2:
     resolution: {integrity: sha512-+OvPkB8CdE/bGdXKyIhc/Lm2U7UAYCCJgsqmopFmh9gbAudmslkI8eOrPDjg4JhwSE6wytz4a3/wRjKtovHVJg==}
     dependencies:
-      '@types/react': 17.0.33
+      '@types/react': 18.0.0
     dev: true
 
   /@types/react-dom/17.0.10:
     resolution: {integrity: sha512-8oz3NAUId2z/zQdFI09IMhQPNgIbiP8Lslhv39DIDamr846/0spjZK0vnrMak0iB8EKb9QFTTIdg2Wj2zH5a3g==}
     dependencies:
-      '@types/react': 17.0.33
+      '@types/react': 18.0.0
     dev: true
 
   /@types/react-redux/7.1.20:
     resolution: {integrity: sha512-q42es4c8iIeTgcnB+yJgRTTzftv3eYYvCZOh1Ckn2eX/3o5TdsQYKUWpLoLuGlcY/p+VAhV9IOEZJcWk/vfkXw==}
     dependencies:
       '@types/hoist-non-react-statics': 3.3.1
-      '@types/react': 17.0.33
+      '@types/react': 18.0.0
       hoist-non-react-statics: 3.3.2
       redux: 4.1.1
     dev: true
@@ -1571,7 +1571,7 @@ packages:
     resolution: {integrity: sha512-ELEYRUie2czuJzaZ5+ziIp9Hhw+juEw8b7C11YNA4QdLCVbQ3qLi2l4aq8XnlqM7V31LZX8dxUuFUCrzHm6sqQ==}
     dependencies:
       '@types/history': 4.7.9
-      '@types/react': 17.0.33
+      '@types/react': 18.0.0
       '@types/react-router': 5.1.17
     dev: true
 
@@ -1579,7 +1579,7 @@ packages:
     resolution: {integrity: sha512-RNSXOyb3VyRs/EOGmjBhhGKTbnN6fHWvy5FNLzWfOWOGjgVUKqJZXfpKzLmgoU8h6Hj8mpALj/mbXQASOb92wQ==}
     dependencies:
       '@types/history': 4.7.9
-      '@types/react': 17.0.33
+      '@types/react': 18.0.0
     dev: true
 
   /@types/react-simple-maps/1.0.6:
@@ -1587,11 +1587,11 @@ packages:
     dependencies:
       '@types/d3-geo': 1.12.3
       '@types/geojson': 7946.0.8
-      '@types/react': 17.0.33
+      '@types/react': 18.0.0
     dev: true
 
-  /@types/react/17.0.33:
-    resolution: {integrity: sha512-pLWntxXpDPaU+RTAuSGWGSEL2FRTNyRQOjSWDke/rxRg14ncsZvx8AKWMWZqvc1UOaJIAoObdZhAWvRaHFi5rw==}
+  /@types/react/18.0.0:
+    resolution: {integrity: sha512-7+K7zEQYu7NzOwQGLR91KwWXXDzmTFODRVizJyIALf6RfLv2GDpqpknX64pvRVILXCpXi7O/pua8NGk44dLvJw==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -4576,7 +4576,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       data-uri-to-buffer: 3.0.1
-      debug: 4.3.2
+      debug: 4.3.4
       file-uri-to-path: 2.0.0
       fs-extra: 8.1.0
       ftp: 0.3.10
@@ -4845,7 +4845,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6890,7 +6890,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.4
       get-uri: 3.0.2
       http-proxy-agent: 4.0.1
       https-proxy-agent: 5.0.0
@@ -7330,7 +7330,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.4
       http-proxy-agent: 4.0.1
       https-proxy-agent: 5.0.0
       lru-cache: 5.1.1
@@ -8153,7 +8153,7 @@ packages:
   /require-in-the-middle/5.1.0:
     resolution: {integrity: sha512-M2rLKVupQfJ5lf9OvqFGIT+9iVLnTmjgbOmpil12hiSQNn5zJTKGPoIisETNjfK+09vP3rpm1zJajmErpr2sEQ==}
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.4
       module-details-from-path: 1.0.3
       resolve: 1.20.0
     transitivePeerDependencies:
@@ -8489,7 +8489,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.4
       socks: 2.6.1
     transitivePeerDependencies:
       - supports-color
